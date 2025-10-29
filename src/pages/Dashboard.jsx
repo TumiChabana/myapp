@@ -13,10 +13,9 @@ function Dashboard() {
     fetchData();
   }, []);
 
-    return 
-    (
+    return (
         <div>
-            <h1>the Dashboard</h1>;
+            <h1>the Dashboard</h1>
             <pre>{JSON.stringify(data, null, 2)}</pre>
         </div>
     );
